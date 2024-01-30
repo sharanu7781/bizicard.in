@@ -1,0 +1,53 @@
+html, body{
+height: 100%;
+}
+
+.bizicon {
+  width: 10%;
+  margin: 12px 5% 12px 5%;
+}
+
+.iconbg {
+  background-color: #6ccff6;
+  padding: 8px;
+}
+
+.btn-about {
+  color: white;
+  background-color: #40a7d0;
+  border-color: #40a7d0;
+  margin-top: 12px;
+}
+
+.btn-gallery {
+  color: white;
+  background-color: #2d82a1;
+  border-color: #2d82a1;
+  margin-top: 12px;
+}
+
+.btn-recognition {
+  color: white;
+  background-color: #1b607d;
+  border-color: #1b607d;
+  margin-top: 12px;
+}
+
+.btn-profile {
+  color: white;
+  background-color: #124c64;
+  border-color: #124c64;
+  margin-top: 12px;
+}
+
+
+.location {
+  color: white;
+  background-color: #124c64;
+  border-color: #124c64;
+  margin-top: 12px;
+}
+
+.para {
+  margin: 12px;
+}

@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gandhi;Dr. Nishant;;;
+FN:Dr. Nishant Gandhi
+ORG:Dental Surgeons Planet
+TITLE:Endodontist
+URI:http://www.dentalsurgeonsplanet.com
+GEO:19.114670055719284,72.90354939695241
+item1.TEL:+9198195 56433
+item1.X-ABLabel:Mobile
+item2.URL:www.dentalsurgeonsplanet.com
+item2.X-ABLabel:Work
+EMAIL;TYPE=Work:contact@dentalsurgeonsplanet.com
+NOTE: Dr. Nishant Gandhi's Dental Surgeons Planet is a state of art dental clinic located at Powai, Mumbai. Dental Surgeons Planet is a hub of all Sr. MDS doctors who consult in renowned Hospitals and clinics of Mumbai, India.
+END:VCARD

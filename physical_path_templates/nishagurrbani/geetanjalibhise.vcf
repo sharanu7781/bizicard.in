@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ahuja;Hirral;;;
+FN:Hirral Ahuja
+ORG:Baker
+TITLE:Owner
+item1.TEL:+91 91567 71779
+item1.X-ABLabel:Mobile
+item2.X-ABLabel:Work
+EMAIL;TYPE=Work:hirraldahuja@gmail.com 
+NOTE:I'm a baker and my speciality is healthy baking, vegan, gluten free & sugar free baking.
+END:VCARD

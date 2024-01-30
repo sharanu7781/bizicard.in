@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bhise;Dr. Rucha;;;
+FN:Dr. Rucha Bhise
+ORG:Smiling Stars
+TITLE:Pediatric Dentist
+URI:http://www.smiling-stars.com/
+GEO:19.102580788347023, 73.00635947753292
+item1.TEL:+91 80709 95555
+item1.X-ABLabel:Mobile
+item2.URL:http://www.smiling-stars.com/
+item2.X-ABLabel:Work
+EMAIL;TYPE=Work:ruchabhise5@gmail.com
+NOTE:Dr. Rucha Bhise is one of the popular pediatric and preventive Dentists practicing at Koparkhairane. She is also working as associate professor at DY Patil Dental College, Navi Mumbai.
+END:VCARD

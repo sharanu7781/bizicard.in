@@ -1,0 +1,248 @@
+.header {
+	/* padding: 10px; */
+	/*background: white;*/
+	/* margin-bottom: 5px; */
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-content: flex-start;
+	-webkit-align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-content: flex-start;
+	align-items: center;
+	justify-content: space-between;
+	height: 90px;
+	width: 87%;
+	margin: auto;
+}
+
+.header-outer-container {
+	border-bottom: 1px solid #eadddd;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+}
+
+.portal-name {
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.zm-portal-subtitle {
+	font-size: 0.8em;
+}
+
+.nv-logo {
+	height: 60px;
+	vertical-align: middle;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.nv-portal-categories-container {
+	/* padding: 10px; */
+	/* background: #444; */
+	text-align: center;
+	/* margin-bottom: 5px; */
+	/* overflow: auto; */
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.zm-menus-holder {
+	margin: auto;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.nv-portal-category-item {
+	padding: 10px;
+	cursor: pointer;
+	white-space: nowrap;
+	display: inline-block;
+	color: black;
+	position: relative;
+}
+
+.np-profile-pic {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	vertical-align: middle;
+}
+
+.mobile-menu-dropdown-icon {
+	display: none;
+	padding-right: 5px;
+}
+
+@media ( max-width :800px) {
+	.nv-portal-categories-container {
+		display: none;
+	}
+	.mobile-menu-dropdown-icon {
+		display: block;
+	}
+}
+
+.mobile-resolution-dropdown-menu-and-user-icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobile-menu-dropdown-items-list-container {
+	background-color: #eae4e4;
+	text-align: center;
+	display: none;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.mobile-menu-dropdown-items-container {
+	padding: 10px;
+	margin-bottom: 0px;
+	/*  border-bottom: 1px solid #d6caca; */
+}
+
+.mobile-dropdowns-items {
+	display: none;
+	background-color: #e4d1d1;
+}
+
+.mobile-menu-sub-item-container {
+	padding: 10px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid rgb(169, 168, 168);
+	margin: 0px;
+}
+
+@media ( min-width :801px) {
+	.mobile-menu-dropdown-items-list-container {
+		display: none !important;
+	}
+}
+
+.nv-portal-category-item-selected {
+	border-bottom: #b9ed03 3px solid;
+}
+
+.catalog-menu-items {
+	background: #d0d0d0;
+	padding: 8px;
+	border-bottom: 1px solid #e6e2e2;
+}
+
+.catalog-menu-container {
+	border-bottom: #b9ed03 3px solid;
+}
+
+.second-level-menus {
+	position: absolute;
+	left: 199px;
+	background: #eae7e7;
+	top: 0;
+	display: none;
+	/* width: 150px; */
+}
+
+.position-relative {
+	position: relative;
+}
+
+@media ( max-width :800px) {
+	.zm-menus-holder {
+		margin: auto;
+		display: -webkit-flex;
+		-webkit-flex-direction: row;
+		-webkit-flex-wrap: nowrap;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		width: 100%;
+	}
+	.nv-portal-category-item {
+		padding: 10px;
+		cursor: pointer;
+		white-space: nowrap;
+		display: inline-block;
+		color: black;
+		position: relative;
+		border-bottom: 1px solid #e0e0e0;
+	}
+	.menus-dropdown-container {
+		/* position: absolute; */
+		/* left: -37px; */
+		z-index: 1;
+		display: none;
+		/* top: 30px; */
+		/* left: 50%; */
+		/* transform: translate(-50%); */
+		background-color: white;
+		border: 1px solid #d8cdcd;
+		width: 100%;
+	}
+	.second-level-menus {
+		position: relative;
+		left: 0;
+		background: #eae7e7;
+		top: 0;
+		display: none;
+		width: 100%;
+		background: #c1c1c1;
+	}
+}
+
+.social-icons-flex-container {
+	display: flex;
+}
+
+.social-icons-image-container {
+	height: 30px;
+	margin: 5px;
+	position: relative;
+	cursor: pointer;
+}
+
+.social-icons-image {
+	height: 100%;
+}
+
+@media ( max-width :700px) {
+	.zm-portal-subtitle {
+		display: none;
+	}
+}
+
+.register-login-dropdown{
+	width: 100px;
+    position: absolute;
+    background: white;
+    border: 1px solid #dad6d6;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+	border-radius: 4px;
+	display: none;
+}
+.register-login-inner{
+	margin: 0;
+    padding: 5px 0px;
+    border-bottom: 1px solid #dad6d6;
+}

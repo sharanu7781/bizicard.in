@@ -1,0 +1,39 @@
+.position-relative {
+    position: relative
+}
+.menus-dropdown-container{
+    position: absolute;
+    left: -37px;
+    z-index: 1;
+    display: none;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    border: 1px solid #d8cdcd;
+    width: auto;
+}
+.menu-items{
+   padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #d8d5d5;
+}
+.menu-titles{
+    color: black;
+}
+@media(max-width:800px){
+	
+	.menus-dropdown-container {
+		position: relative;
+    /* left: -37px; */
+    z-index: 1;
+    display: none;
+    top: 0px;
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    background-color: white;
+    border: 1px solid #d8cdcd;
+    width: 100%;
+    background: whitesmoke;
+	}
+}
